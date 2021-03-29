@@ -1,5 +1,5 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('simplebar/dist/simplebar-core.esm')) :
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core')) :
     typeof define === 'function' && define.amd ? define('simplebar-angular', ['exports', '@angular/core', 'simplebar/dist/simplebar-core.esm'], factory) :
     (global = global || self, factory(global['simplebar-angular'] = {}, global.ng.core, global.SimpleBar));
 }(this, function (exports, core, SimpleBar) { 'use strict';
